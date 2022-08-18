@@ -25,7 +25,6 @@ namespace league
         int number_of_games;
         int number_of_teams;
         int total_games;
-        string date;
 
     public:
         // Schedule();
