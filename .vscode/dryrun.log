@@ -1,0 +1,10 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/tal/Desktop/Shared/Basketball-League'
+clang++-9 -std=c++2a -Werror -Wsign-conversion -Isources --compile sources/League.cpp -o objects/League.o
+clang++-9 -std=c++2a -Werror -Wsign-conversion -Isources --compile sources/Game.cpp -o objects/Game.o
+clang++-9 -std=c++2a -Werror -Wsign-conversion -Isources --compile sources/Team.cpp -o objects/Team.o
+clang++-9 -std=c++2a -Werror -Wsign-conversion -Isources --compile sources/Schedule.cpp -o objects/Schedule.o
+clang++-9 -std=c++2a -Werror -Wsign-conversion -Isources --compile sources/Amain.cpp -o objects/Amain.o
+clang++-9 -std=c++2a -Werror -Wsign-conversion -Isources objects/League.o objects/Game.o objects/Team.o objects/Schedule.o objects/Amain.o -o main
+make: Leaving directory '/home/tal/Desktop/Shared/Basketball-League'
+ 
