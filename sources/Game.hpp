@@ -12,6 +12,7 @@ namespace league
         Team *away;
         int home_score;
         int away_score;
+        string location;
 
     public:
         Game(Team *home, Team *away);
